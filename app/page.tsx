@@ -136,7 +136,7 @@ export default function Home() {
             </svg>
 
             {/* Profile Image */}
-            <div className="relative z-10">
+            <div className="relative z-10 max-w-md mx-auto">
               <img
                 src="/images/whatsapp-20image-202025-12-13-20at-2023.jpg"
                 alt="Dhruv Pahwa - Data Science & AI Student"
