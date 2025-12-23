@@ -14,8 +14,6 @@ export default function Home() {
           <nav className="hidden md:flex items-center gap-8">
             <a
               href="https://github.com/Dhruv-Pahwa"
-              target="_blank"
-              rel="noopener noreferrer"
               className="text-sm text-muted-foreground hover:text-foreground transition-colors flex items-center gap-1"
             >
               My Projects
@@ -23,8 +21,6 @@ export default function Home() {
             </a>
             <a
               href="https://www.linkedin.com/in/dhruvpahwa/"
-              target="_blank"
-              rel="noopener noreferrer"
               className="text-sm text-muted-foreground hover:text-foreground transition-colors flex items-center gap-1"
             >
               Contact me
@@ -102,16 +98,10 @@ export default function Home() {
 
             <div className="flex flex-wrap gap-4 pt-4">
               <Button size="lg" className="rounded-full px-8" asChild>
-                <a href="https://www.linkedin.com/in/dhruvpahwa/" target="_blank" rel="noopener noreferrer">
-                  Let's Talk
-                </a>
+                <a href="https://www.linkedin.com/in/dhruvpahwa/">Let's Talk</a>
               </Button>
               <Button size="lg" variant="ghost" className="gap-2" asChild>
-                <a
-                  href="https://drive.google.com/file/d/1fQz6GXRrF3RDlvq1spkTZVkviNuT2ozB/view?usp=sharing"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a href="https://drive.google.com/file/d/1fQz6GXRrF3RDlvq1spkTZVkviNuT2ozB/view?usp=sharing">
                   Download CV
                   <Download className="w-4 h-4" />
                 </a>
