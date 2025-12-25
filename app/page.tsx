@@ -101,7 +101,7 @@ export default function Home() {
                 <a href="https://www.linkedin.com/in/dhruvpahwa/">Let's Talk</a>
               </Button>
               <Button size="lg" variant="ghost" className="gap-2" asChild>
-                <a href="https://drive.google.com/file/d/1fQz6GXRrF3RDlvq1spkTZVkviNuT2ozB/view?usp=sharing">
+                <a href="https://drive.google.com/file/d/11pyDpgW-Rwq43t2k0pt_0CDN7RyDU-BE/view?usp=sharing">
                   Download CV
                   <Download className="w-4 h-4" />
                 </a>
